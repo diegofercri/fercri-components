@@ -1,3 +1,9 @@
+:root {
+    --width: 300px;
+    --width-negative: -300px;
+    --width-2: 55px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,12 +21,12 @@
     z-index: 100;
     background-color: var(--c4);
     color: var(--c8);
-    width: 300px;
+    width: var(--width);
     height: 100vh;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
-    transform: translateX(-300px);
+    transform: translateX(var(--width-negative));
     transition: all 0.4s;
     scrollbar-width: none;
 }
@@ -33,16 +39,16 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     @keyframes navbarLoad {
         0% {
-            width: 300px;
+            width: var(--width);
         }
 
         100% {
-            width: 55px;
+            width: var(--width-2);
         }
     }
 
     .navbar {
-        width: 55px;
+        width: var(--width-2);
         padding: 0;
         overflow: hidden;
         transform: translateX(0);
@@ -54,7 +60,7 @@
 
 @media screen and (min-width: 1024px) {
     .navbar {
-        width: 300px;
+        width: var(--width);
         justify-content: center;
         gap: 13vh;
         transform: translateX(0);
@@ -68,7 +74,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .navbar--show {
-        width: 300px;
+        width: var(--width);
         transition: all 0.4s;
     }
 }
@@ -101,6 +107,7 @@
         left: 50%;
         height: 15vh;
         max-width: 70%;
+        border-radius: 50%;
         transform: translate(-50%, 0);
         transition: all 0.7s;
         animation: imgLoad 1s ease-in-out;
@@ -117,8 +124,7 @@
 .toggle-menu {
     position: absolute;
     top: 0;
-    margin: 15px;
-    left: 300px;
+    left: var(--width);
     font-size: 1.5rem;
     z-index: 100;
     align-items: center;
@@ -174,7 +180,7 @@
     border-radius: 5rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .navbar--show #toggle-menu__close {
         display: none;
     }
@@ -214,7 +220,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .main-menu a>div {
-        transform: translateX(-7px);
+        transform: translateX(-5px);
         transition: transform 0.4s;
     }
 
@@ -259,7 +265,7 @@
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
+    transition: max-height 0.3s ease-in-out;
 }
 
 .dropdown-list--show {
@@ -316,7 +322,7 @@ main {
     main {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 55px;
+        margin-left: var(--width-2);
     }
 }
 
@@ -324,6 +330,6 @@ main {
     main {
         display: flex;
         flex-wrap: wrap;
-        margin-left: 300px;
+        margin-left: var(--width);
     }
 }
