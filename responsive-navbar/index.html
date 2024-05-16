@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <div id="toggle-menu__open" class="toggle-menu toggle-menu__open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div id="toggle-menu__close" class="toggle-menu toggle-menu__close">
+            <i class="fa fa-close" aria-hidden="true"></i>
+        </div>
+        <img src="/assets/logo.svg" alt="Resposive Navbar Logo" id="navbar-logo" class="navbar-logo" />
+        <ul id="main-menu" class="main-menu">
+            <li>
+                <a href="/index.html" class="toggle-menu__close">
+                    <div>
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span>Home</span>
+                    </div>
+                </a>
+            </li>
+            <li class="d-flex">
+                <a href="#contact" class="toggle-menu__close">
+                    <div>
+                        <i class="fa fa-address-book" aria-hidden="true"></i>
+                        <span>Contact</span>
+                    </div>
+                </a>
+            </li>
+            <li class="dropdown">
+                <a id="dropdown-toggle0" class="dropdown-toggle">
+                    <div>
+                        <i class="fa fa-inbox" aria-hidden="true"></i>
+                        <span>Dropdown 1</span>
+                    </div>
+                    <i class="fa fa-angle-down dropdown-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdown-list0" class="dropdown-list">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="text-color-1 dropdown__link">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-color-1 dropdown__link">Option 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a id="dropdown-toggle1" class="dropdown-toggle">
+                    <div>
+                        <i class="fa fa-inbox" aria-hidden="true"></i>
+                        <span>Dropdown 2</span>
+                    </div>
+                    <i class="fa fa-angle-down dropdown-arrow" aria-hidden="true"></i>
+                </a>
+                <div id="dropdown-list1" class="dropdown-list">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="text-color-1 dropdown__link">Option 1</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="text-color-1 dropdown__link">Option 2</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <script src="navbar.js"></script>
+</body>
+
+</html>

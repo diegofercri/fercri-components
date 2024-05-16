@@ -1,0 +1,164 @@
+:root {
+    --c0: #fffbf3;
+    --c1: #fef0d7;
+    --c2: #ffedcd;
+    --c3: #fdeac4;
+    --c4: #e9d09f;
+    --c5: #e0b662;
+    --c6: #b98f3c;
+    --c7: #505050;
+    --c8: #252525;
+}
+
+
+.bg-c0 {
+    background-color: var(--c0);
+}
+
+.border-c0 {
+    border-color: var(--c0);
+}
+
+.text-c0 {
+    color: var(--c0);
+}
+
+.hover-c0 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c1 {
+    background-color: var(--c0);
+}
+
+.border-c1 {
+    border-color: var(--c0);
+}
+
+.text-c1 {
+    color: var(--c0);
+}
+
+.hover-c1 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c2 {
+    background-color: var(--c0);
+}
+
+.border-c2 {
+    border-color: var(--c0);
+}
+
+.text-c2 {
+    color: var(--c0);
+}
+
+.hover-c2 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c3 {
+    background-color: var(--c0);
+}
+
+.border-c3 {
+    border-color: var(--c0);
+}
+
+.text-c3 {
+    color: var(--c0);
+}
+
+.hover-c3 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c4 {
+    background-color: var(--c0);
+}
+
+.border-c4 {
+    border-color: var(--c0);
+}
+
+.text-c4 {
+    color: var(--c0);
+}
+
+.hover-c4 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c5 {
+    background-color: var(--c0);
+}
+
+.border-c5 {
+    border-color: var(--c0);
+}
+
+.text-c5 {
+    color: var(--c0);
+}
+
+.hover-c5 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c6 {
+    background-color: var(--c0);
+}
+
+.border-c6 {
+    border-color: var(--c0);
+}
+
+.text-c6 {
+    color: var(--c0);
+}
+
+.hover-c6 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c7 {
+    background-color: var(--c0);
+}
+
+.border-c7 {
+    border-color: var(--c0);
+}
+
+.text-c7 {
+    color: var(--c0);
+}
+
+.hover-c7 :hover {
+    color: var(--c0)
+}
+
+
+.bg-c8 {
+    background-color: var(--c0);
+}
+
+.border-c8 {
+    border-color: var(--c0);
+}
+
+.text-c8 {
+    color: var(--c0);
+}
+
+.hover-c8 :hover {
+    color: var(--c0)
+}
