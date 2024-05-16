@@ -265,11 +265,11 @@
     margin-left: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
+    transition: max-height 0.4s ease-in-out;
 }
 
-.dropdown-list--show {
-    max-height: 200px;
+.dropdown-list--show-0 {
+    max-height: 180px;
 }
 
 .dropdown-list--show-1 {
